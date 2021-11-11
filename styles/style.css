@@ -41,6 +41,7 @@ body {
 .container {
   max-width: 128rem;
   margin: 0 auto;
+  padding: 0 1.6rem;
 }
 
 ul {
@@ -51,11 +52,17 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 6.8rem;
+}
+
 /* Header */
 
 .header {
   background-color: #323232;
-  padding: 0.05rem 1.6rem;
+  padding: 0.05rem 0;
   height: 8.7rem;
 }
 
@@ -112,4 +119,27 @@ a {
 
 .header__link:hover::before {
   visibility: visible;
+}
+
+/* Hero-Section */
+
+.hero {
+  background-image: -webkit-linear-gradient(
+      top,
+      rgba(50, 50, 50, 0.5),
+      rgba(50, 50, 50, 0.5)
+    ),
+    url('../assets/images/hero-bio.jpg');
+  height: calc(100vh - 8.7rem);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero__content {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
