@@ -381,6 +381,67 @@ h2 {
     line-height: 1.8rem;
     padding-bottom: 0rem;
   }
+
+  .hero {
+    height: 28rem;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  .about {
+    padding-top: 2.4rem;
+  }
+
+  .about__heading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    padding-bottom: 2.4rem;
+    color: #323232;
+  }
+
+  .photo-gallary__heading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .about__qoute {
+    padding-top: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .about__author {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding-top: 0.8rem;
+  }
+
+  .about__sub-heading {
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .about__para {
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .about__flex {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 2.4rem;
+  }
 }
 
 @media (max-width: 727px) {
@@ -391,6 +452,17 @@ h2 {
 
   .footer__inner-flex {
     gap: 2rem;
+  }
+}
+
+@media (max-width: 462px) {
+  .footer__inner-flex {
+    display: flex;
+  }
+
+  .footer__heading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
   }
 }
 
@@ -406,18 +478,13 @@ h2 {
   .footer__socials--mobile {
     line-height: 4.4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 4rem;
     align-items: center;
     margin-bottom: 1.6rem;
   }
 
   .footer__item-3 {
     margin-top: 0rem;
-  }
-}
-
-@media (max-width: 462px) {
-  .footer__inner-flex {
-    display: flex;
   }
 }
