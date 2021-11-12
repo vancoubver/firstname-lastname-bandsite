@@ -120,7 +120,6 @@ h2 {
 
 .header__link:hover {
   color: #fff;
-  font-weight: 700;
 }
 
 .header__link:hover::before {
@@ -161,7 +160,7 @@ h2 {
 }
 
 .about__content {
-  max-width: 110rem;
+  max-width: 105rem;
   margin: 0 auto;
 }
 
@@ -175,7 +174,7 @@ h2 {
   line-height: 3.2rem;
   font-weight: 600;
   color: #323232;
-  width: 65%;
+  width: 68%;
   padding-top: 3.6rem;
 }
 
@@ -250,6 +249,7 @@ h2 {
 
 .footer__flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -260,7 +260,7 @@ h2 {
 
 .footer__inner-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 5rem;
 }
 
@@ -280,31 +280,72 @@ h2 {
 .footer__user {
   font-size: 1.4rem;
   font-weight: 400;
-  line-height: 2.2rem;
-  padding: 1.6rem 0rem;
+  line-height: 2rem;
+  padding: 3.2rem 0rem 2rem;
 }
 
 .footer__address {
   font-size: 1.4rem;
   font-weight: 400;
-  line-height: 2.2rem;
-  padding-bottom: 1.6rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
 }
 
 .footer__contact {
   font-size: 1.4rem;
   font-weight: 400;
-  line-height: 2.2rem;
-  padding-bottom: 1.6rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
 }
 
 .footer__copyright {
   font-size: 1.4rem;
   font-weight: 400;
-  line-height: 2.2rem;
-  padding: 1.6rem 0rem;
+  line-height: 2rem;
 }
 
 .footer__item-3 {
   margin-top: 4.4rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 1280px) {
+  .about__qoute {
+    width: 100%;
+  }
+
+  .about__content {
+    max-width: 90rem;
+  }
+
+  .photo-gallery__flex {
+    gap: 2rem;
+  }
+
+  .photo-gallery__item {
+    width: 23rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .about__content {
+    max-width: 65rem;
+  }
+}
+
+@media (max-width: 785px) {
+  .photo-gallery__item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 875px) {
+  .footer__flex {
+    flex-wrap: wrap;
+  }
+
+  .footer__logo {
+    margin-top: 3.6rem;
+  }
 }
