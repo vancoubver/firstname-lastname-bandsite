@@ -72,9 +72,10 @@ h2 {
 // Color
 $bandsite-black: #323232;
 $mercury-color: #e1e1e1;
-$white-color:#ffffff
-/* Header */
+$white-color: #ffffff;
+$alabaster-color: #fafafa;
 
+//Header
 .header {
   background-color: $bandsite-black;
   padding: 0.05rem 0;
@@ -149,79 +150,80 @@ $white-color:#ffffff
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
 
-.hero__content {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  &__content {
+    color: $white-color;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 /* About-Section */
+
 .about {
   padding-top: 4.8rem;
-}
 
-.about__heading {
-  padding-bottom: 3.6rem;
-  color: #323232;
-}
+  &__heading {
+    padding-bottom: 3.6rem;
+    color: $bandsite-black;
+  }
 
-.about__content {
-  max-width: 105rem;
-  margin: 0 auto;
-}
+  &__content {
+    max-width: 105rem;
+    margin: 0 auto;
+  }
 
-.about__image {
-  width: 100%;
-}
+  &__image {
+    width: 100%;
+  }
 
-.about__qoute {
-  display: inline-block;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  font-weight: 600;
-  color: #323232;
-  width: 68%;
-  padding-top: 3.6rem;
-}
+  &__qoute {
+    display: inline-block;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+    color: $bandsite-black;
+    width: 68%;
+    padding-top: 3.6rem;
+  }
 
-.about__author {
-  padding-top: 1.6rem;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  font-weight: 600;
-  color: #323232;
-}
+  &__author {
+    padding-top: 1.6rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: $bandsite-black;
+  }
 
-.about__sub-heading {
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  font-weight: 600;
-  color: #323232;
-  padding-top: 4.8rem;
-  padding-bottom: 3.6rem;
-}
+  &__sub-heading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+    color: $bandsite-black;
+    padding-top: 4.8rem;
+    padding-bottom: 3.6rem;
+  }
 
-.about__flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 3.6rem;
-}
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3.6rem;
+  }
 
-.about__para {
-  width: 45%;
-  font-size: 1.4rem;
-  line-height: 2.2rem;
-  font-weight: 400;
-  color: #323232;
+  &__para {
+    width: 45%;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    color: $bandsite-black;
+  }
 }
 
 /* Photo-Gallery */
 .photo-gallery {
-  background-color: #fafafa;
+  background-color: $alabaster-color;
   padding-bottom: 3.6rem;
 }
 
