@@ -1,0 +1,51 @@
+// Removing Default Styles
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Setting Font Size
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+// Utility Styling
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 6.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.4rem;
+}
