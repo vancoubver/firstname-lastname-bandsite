@@ -1,3 +1,5 @@
+@import './partials/variables';
+
 // Custom Font
 @font-face {
   font-family: 'Avenir Next';
@@ -68,12 +70,6 @@ h2 {
   font-weight: 700;
   line-height: 4.4rem;
 }
-
-// Color
-$bandsite-black: #323232;
-$mercury-color: #e1e1e1;
-$white-color: #ffffff;
-$alabaster-color: #fafafa;
 
 //Header
 .header {
@@ -162,10 +158,10 @@ $alabaster-color: #fafafa;
 /* About-Section */
 
 .about {
-  padding-top: 4.8rem;
+  padding-top: $padding-top-desktop;
 
   &__heading {
-    padding-bottom: 3.6rem;
+    padding-bottom: $padding-bottom-desktop;
     color: $bandsite-black;
   }
 
@@ -185,11 +181,11 @@ $alabaster-color: #fafafa;
     font-weight: 600;
     color: $bandsite-black;
     width: 68%;
-    padding-top: 3.6rem;
+    padding-top: $padding-bottom-desktop;
   }
 
   &__author {
-    padding-top: 1.6rem;
+    padding-top: $padding-bottom-mobile;
     font-size: 1.8rem;
     line-height: 2.4rem;
     font-weight: 600;
@@ -201,15 +197,15 @@ $alabaster-color: #fafafa;
     line-height: 3.2rem;
     font-weight: 600;
     color: $bandsite-black;
-    padding-top: 4.8rem;
-    padding-bottom: 3.6rem;
+    padding-top: $padding-top-desktop;
+    padding-bottom: $padding-bottom-desktop;
   }
 
   &__flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 3.6rem;
+    padding-bottom: $padding-bottom-desktop;
   }
 
   &__para {
@@ -224,11 +220,11 @@ $alabaster-color: #fafafa;
 /* Photo-Gallery */
 .photo-gallery {
   background-color: $alabaster-color;
-  padding-bottom: 3.6rem;
+  padding-bottom: $padding-bottom-desktop;
 
   &__heading {
-    padding-top: 4.8rem;
-    padding-bottom: 3.6rem;
+    padding-top: $padding-top-desktop;
+    padding-bottom: $padding-bottom-desktop;
   }
 
   &__flex {
@@ -254,8 +250,8 @@ $alabaster-color: #fafafa;
 .footer {
   background-color: $bandsite-black;
   color: $white-color;
-  padding-top: 4.8rem;
-  padding-bottom: 3.6rem;
+  padding-top: $padding-top-desktop;
+  padding-bottom: $padding-bottom-desktop;
 
   &__flex {
     display: flex;
@@ -292,7 +288,7 @@ $alabaster-color: #fafafa;
 
   &__social-link {
     font-size: 2.4rem;
-    color: #fff;
+    color: $white-color;
   }
 
   &__user {
@@ -363,7 +359,7 @@ $alabaster-color: #fafafa;
     }
 
     &__logo {
-      margin-top: 4.8rem;
+      margin-top: $padding-top-desktop;
       margin-bottom: 0.5rem;
     }
   }
@@ -381,8 +377,8 @@ $alabaster-color: #fafafa;
   }
   .photo-gallery {
     &__heading {
-      padding-top: 2.4rem;
-      padding-bottom: 1.6rem;
+      padding-top: $padding-top-mobile;
+      padding-bottom: $padding-bottom-mobile;
     }
 
     &__item {
@@ -391,8 +387,8 @@ $alabaster-color: #fafafa;
   }
 
   .footer {
-    padding-top: 2.4rem;
-    padding-bottom: 1.6rem;
+    padding-top: $padding-top-mobile;
+    padding-bottom: $padding-bottom-mobile;
 
     &__user {
       font-size: 1.3rem;
@@ -452,14 +448,14 @@ $alabaster-color: #fafafa;
   }
 
   .about {
-    padding-top: 2.4rem;
+    padding-top: $padding-top-mobile;
 
     &__heading {
-      padding-bottom: 1.6rem;
+      padding-bottom: $padding-bottom-mobile;
     }
 
     &__qoute {
-      padding-top: 2.4rem;
+      padding-top: $padding-top-mobile;
       font-size: 1.8rem;
       line-height: 2.4rem;
     }
@@ -473,22 +469,21 @@ $alabaster-color: #fafafa;
     &__sub-heading {
       font-size: 2.4rem;
       line-height: 2.2rem;
-      padding-top: 2.4rem;
-      padding-bottom: 1.6rem;
+      padding-top: $padding-top-mobile;
+      padding-bottom: $padding-bottom-mobile;
     }
-
     &__para {
       width: 100%;
       font-size: 1.3rem;
       line-height: 1.8rem;
-      padding-bottom: 1.6rem;
+      padding-bottom: $padding-bottom-mobile;
     }
 
     &__flex {
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      padding-bottom: 2.4rem;
+      padding-bottom: $padding-top-mobile;
     }
   }
 }
