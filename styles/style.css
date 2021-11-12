@@ -210,3 +210,31 @@ h2 {
   font-weight: 400;
   color: #323232;
 }
+
+/* Photo-Gallery */
+.photo-gallery {
+  background-color: #fafafa;
+  padding-bottom: 3.6rem;
+}
+
+.photo-gallary__heading {
+  padding-top: 4.8rem;
+  padding-bottom: 3.6rem;
+}
+
+.photo-gallery__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.photo-gallery__item {
+  width: 38.6rem;
+  line-height: 0;
+}
+
+.photo-gallery__img {
+  width: 100%;
+}
