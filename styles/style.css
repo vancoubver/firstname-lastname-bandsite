@@ -387,6 +387,19 @@ h2 {
     justify-content: center;
   }
 
+  .footer__heading {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  .footer__socials {
+    line-height: 3.2rem;
+  }
+
+  .footer__item-3 {
+    margin-top: 6.4rem;
+  }
+
   .header__navbar {
     margin-left: 0rem;
   }
@@ -482,20 +495,11 @@ h2 {
   .footer__inner-flex {
     display: flex;
   }
-
-  .footer__heading {
-    font-size: 2.4rem;
-    line-height: 3.2rem;
-  }
 }
 
-@media (max-width: 457px) {
+@media (max-width: 418px) {
   .footer__socials {
     display: none;
-  }
-
-  .footer__heading {
-    padding-bottom: 0rem;
   }
 
   .footer__socials--mobile {
@@ -505,6 +509,10 @@ h2 {
     gap: 4rem;
     align-items: center;
     margin-bottom: 1.6rem;
+  }
+
+  .footer__heading {
+    padding-bottom: 0rem;
   }
 
   .footer__item-3 {
